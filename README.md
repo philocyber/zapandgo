@@ -1,5 +1,18 @@
 # ZAP and GO
-ZAP and GO is a simple tool that execute some normal functions by using API from ZAP (OWASP project)
+                    
+  ______           _____                   _   _____   ____  
+ |___  /    /\    |  __ \                 | | / ____| / __ \ 
+    / /    /  \   | |__) |__ _  _ __    __| || |  __ | |  | |
+   / /    / /\ \  |  ___// _` || '_ \  / _` || | |_ || |  | |
+  / /__  / ____ \ | |   | (_| || | | || (_| || |__| || |__| |
+ /_____|/_/    \_\|_|    \__,_||_| |_| \__,_| \_____| \____/ 
+        
+               "Scanning with style since 1894"
+
+By: Cenard
+Collaborators: Mr. Anderson & Max Power
+ZAP and GO is a simple tool that execute 4 functions by using API from ZAP (OWASP project)
+
 
   With this tool you can make 4 differents types of scans:
     1. Crawler (ZAP Spider)
@@ -31,9 +44,9 @@ Another thing you must know is that you will need the "API key", you can see it 
 I am not responsible for the normal and private use of this tool, please do not use in domains where you do not have explicit authorization to audit or scan. This could be an instrusive tool.
 ***
 
-Usage:
+usage: ZAG.py [-h] -u  URL -k  KEY [-s] [-a] [-P] [-A] [-o OUTPUT] [-v]
 
-  optional arguments:
+optional arguments:
   -h, --help            show this help message and exit
   -u  URL, --url URL    specify the url, like the following example:
                         http(s)://domain
