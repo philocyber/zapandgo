@@ -26,6 +26,23 @@ I strongly recommend use pip and run this with python 2, although is available i
 
 Another thing you must know is that you will need the "API key", you can see it in the UI ZAP going directly to Tools/Options/API, is a large string that contains numbers and letters.
 
+
 ***
 I am not responsible for the normal and private use of this tool, please do not use in domains where you do not have explicit authorization to audit or scan. This could be an instrusive tool.
 ***
+
+Usage:
+
+  optional arguments:
+  -h, --help            show this help message and exit
+  -u  URL, --url URL    specify the url, like the following example:
+                        http(s)://domain
+  -k  KEY, --key KEY    specify the Api key, you can find it in your UI ZAP
+                        [Tool/Options/API]
+  -s, --spider          Web Spider against your target
+  -a, --ajaxspider      Web Ajax Spider against your target
+  -P, --passive         Passive Scan against your target
+  -A, --active          Active Scan against your target
+  -o OUTPUT, --output OUTPUT
+                        Generate CSV file, you must specified the name
+  -v, --verbose         Add verbosity
